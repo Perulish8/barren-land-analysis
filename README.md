@@ -2,6 +2,7 @@
 Prerequisite: Java 8 or later on your path
 
 #Run a build
+
 ./gradlew clean build
 
 #Running the application
