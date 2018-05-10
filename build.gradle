@@ -14,9 +14,7 @@ repositories {
 }
 
 run {
-    if (project.hasProperty("appArgs")) {
-        args Eval.me(appArgs)
-    }
+    args System.getProperty("barren.land.areas", "")
 }
 
 dependencies {
